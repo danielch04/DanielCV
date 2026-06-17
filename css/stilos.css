@@ -405,6 +405,55 @@ body {
   line-height: 1.5;
 }
 
+/* ── Sobre Mí — grid inferior ────────────────────────────────────────────── */
+.sobre-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.sobre-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 22px 20px;
+}
+
+.sobre-card-title {
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #64748b;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.sobre-card-title i { color: #3b82f6; font-size: .95rem; }
+
+.sobre-card .tag-list { gap: 6px; }
+
+.sobre-card .tag {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  color: #475569;
+}
+
+.sobre-card .lang-list { gap: 12px; }
+
+.sobre-card .lang-name {
+  font-size: .88rem;
+  color: #334155;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .sobre-grid { grid-template-columns: 1fr; }
+}
+
 /* ── Footer ──────────────────────────────────────────────────────────────── */
 .main-footer {
   padding: 18px 40px;
