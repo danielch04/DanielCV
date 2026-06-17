@@ -1,99 +1,227 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- <link rel="Stylesheet" type="text/css" href="css/estilocv.css" > -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-<link href="css/stilos.css" rel="stylesheet">
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Tehuacatl — CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="css/stilos.css" rel="stylesheet">
 </head>
 <body>
-  
-<div class="card p-3">
-    <div class="card-header bg-primary-subtle text-center p-3">    <h1>CV Daniel Tehuacatl</h1></div>
-    <div class="card-body">
-        <div class="row">
-            <div class="tabs col-lg-2 " >
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs row  bg-primary-subtle " role="tablist">
-                    <li class="nav-item p-4"><a class="nav-link active"  href="#index"> Datos Generales </a></li>
-                    <li class="nav-item p-4"><a class="nav-link"         href="#goals"> Objetivo Profesional </a></li>
-                    <li class="nav-item p-4"><a class="nav-link"         href="#experience"> Experiencia Profesional </a></li>
-                    <li class="nav-item p-4"><a class="nav-link"         href="#skills">Gustos </a></li>
-                </ul>
-            </div>  
-            <div class="tab-content col-lg-8">
-                <div id="index" class="container tab-pane active">
-                    <div>
-                        <p><h1> Ruben Daniel Tehuacatl Choncoa</h1> </p>
-                        <ul>
-                            <p><li> <i class="bi bi-geo-alt"></i> Calle 1° de mayo no°116 colonia Modelo, R&iacute;o Blanco, Ver.</li></p>
-                            <p><li> <i class="bi bi-phone"></i> 2721083162</li></p>
-                            <p><li> <i class="bi bi-envelope-at"></i> ruben.tehuacatl.choncoa.cet146@gmail.com </li></p>
-                        </ul>
-                    </div>
-                </div>
-                <div id="goals" class="container tab-pane fade">
-                    <h1>Objetivo Profesional</h1>
-                    <p>Mi objetivo es una vez alcanzado el final de la carrera universitaria, <br>
-                    encontrar un lugar de trabajo donde este rodeado de personas con<br>
-                    gran conocimiento y de las cuales yo sea capaz de aprender para<br>
-                    alcanzar un mejor nivel como programador.
-                    </p>
-                </div>
-                <div id="experience" class="container tab-pane fade">
-                    <h1>Experiencia Profesional</h1>
-                    En mi vida escolar no he particiado casi en proyectos, pero tengo alguna poca de experiencia
-                    <li>Un certificado de manejo de office obtenido en el Cetis 146 de Rio Blanco</li>
-                    <li>Un certificado de soporte y mantenimiento de equipo de computo obtenido en  <br>  el Cetis 146 de Rio Blanco</li>
-                    <li>Un certificado de mantenimeinto preventivo de computadoras obtenido en  <br> el Cecati de mendoza</li>
-                    <li>Desarrollar un proyecto de Ingienieria de software, el cual fue la implementacion de la tecnologia "CODI" en la aplicacion de telefono de Telmex para una forma de pago seguro y rapido</li>
-                    <li>Actualmente emprendo con colegas el desarrollo de una pagina web de un vivero "BioPlant"</li>
-                    <p>
-                    </p>
-                </div>
-                <div id="skills" class="container tab-pane fade">
-                    <h1>Intereses</h1>
-                    <p> ordenando mis intereses respecto a lo profesional, de mayor a menor importancia pondr&iacute;a</p>
-                        <ul id="lisin">
-                            <li>Redes</li>
-                            <li>Videojuegos</li>
-                            <li>Bases de Datos</li>
-                            <li>Programacion</li>
-                        </ul>
-                </div>
 
-            </div>
-            <div class="aside col-lg-2  bg-primary-subtle">
-                <h2>Personalidad</h2>
-                <ul>
-                    <li>Trabajador</li>
-                    <li>Responsable</li>
-                    <li>Socible</li>
-                    <li>Alegre</li>
-                    <li>Colaborativo</li>
-                </ul>
+  <div class="cv-wrapper">
 
-                <h2>Tecnologias dominadas</h2>
-                <ul>
-                    <li>Paquetería Officce</li>
-                    <li>Java Basico</li>
-                    <li>NetBeans</li>
-                    <li>PostgreSQL</li>
-                    <li>Sublime</li>
-                </ul>
+    <!-- ── SIDEBAR ── -->
+    <aside class="sidebar">
+      <div class="profile">
+        <div class="avatar">DT</div>
+        <h1 class="profile-name">Ruben Daniel<br>Tehuacatl Choncoa</h1>
+        <p class="profile-sub">Estudiante de Ingeniería en Sistemas</p>
+      </div>
+
+      <div class="sidebar-section">
+        <h3 class="sidebar-title">Contacto</h3>
+        <ul class="contact-list">
+          <li><i class="bi bi-geo-alt-fill"></i><span>Río Blanco, Veracruz</span></li>
+          <li><i class="bi bi-phone-fill"></i><span>272 108 3162</span></li>
+          <li><i class="bi bi-envelope-fill"></i><span>ruben.tehuacatl.choncoa.cet146@gmail.com</span></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-section">
+        <h3 class="sidebar-title">Tecnologías</h3>
+        <div class="skill-list">
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Paquetería Office</span>
+              <span class="skill-pct">85%</span>
             </div>
+            <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">HTML / CSS</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">PostgreSQL</span>
+              <span class="skill-pct">60%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Java Básico</span>
+              <span class="skill-pct">55%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="width:55%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">NetBeans</span>
+              <span class="skill-pct">65%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+          </div>
         </div>
-    </div>
-    <div class="card-footer  bg-primary-subtle">
-        <p>Todos los derechos reservados &copy; 2024 </p>
-    </div>
-</div>
+      </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <div class="sidebar-section">
+        <h3 class="sidebar-title">Personalidad</h3>
+        <div class="tag-list">
+          <span class="tag">Trabajador</span>
+          <span class="tag">Responsable</span>
+          <span class="tag">Sociable</span>
+          <span class="tag">Alegre</span>
+          <span class="tag">Colaborativo</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ── MAIN CONTENT ── -->
+    <main class="main-content">
+
+      <nav class="tab-nav" role="tablist">
+        <button class="tab-btn active" data-tab="objetivo">
+          <i class="bi bi-bullseye"></i> Objetivo
+        </button>
+        <button class="tab-btn" data-tab="experiencia">
+          <i class="bi bi-briefcase"></i> Experiencia
+        </button>
+        <button class="tab-btn" data-tab="intereses">
+          <i class="bi bi-stars"></i> Intereses
+        </button>
+      </nav>
+
+      <div class="tab-panels">
+
+        <!-- Objetivo -->
+        <div id="objetivo" class="tab-panel active">
+          <h2 class="section-title">Objetivo Profesional</h2>
+          <div class="objetivo-card">
+            <i class="bi bi-quote quote-icon"></i>
+            <p>Mi objetivo es, una vez alcanzado el final de la carrera universitaria, encontrar un lugar de trabajo donde esté rodeado de personas con gran conocimiento y de las cuales yo sea capaz de aprender para alcanzar un mejor nivel como programador.</p>
+          </div>
+        </div>
+
+        <!-- Experiencia -->
+        <div id="experiencia" class="tab-panel">
+          <h2 class="section-title">Experiencia y Certificados</h2>
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <div class="timeline-icon"><i class="bi bi-award-fill"></i></div>
+              <div class="timeline-body">
+                <h4>Manejo de Paquetería Office</h4>
+                <p class="timeline-source"><i class="bi bi-building"></i> Cetis 146 — Río Blanco</p>
+                <p>Certificado en manejo y uso profesional de herramientas del paquete Office.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-icon"><i class="bi bi-award-fill"></i></div>
+              <div class="timeline-body">
+                <h4>Soporte y Mantenimiento de Equipo de Cómputo</h4>
+                <p class="timeline-source"><i class="bi bi-building"></i> Cetis 146 — Río Blanco</p>
+                <p>Certificado en diagnóstico, soporte y mantenimiento de hardware y software.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-icon"><i class="bi bi-award-fill"></i></div>
+              <div class="timeline-body">
+                <h4>Mantenimiento Preventivo de Computadoras</h4>
+                <p class="timeline-source"><i class="bi bi-building"></i> Cecati — Mendoza</p>
+                <p>Certificado en técnicas de mantenimiento preventivo de equipos de cómputo.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-icon"><i class="bi bi-code-slash"></i></div>
+              <div class="timeline-body">
+                <h4>Proyecto: Implementación CODI — Telmex</h4>
+                <p class="timeline-source"><i class="bi bi-mortarboard"></i> Ingeniería de Software</p>
+                <p>Desarrollo de propuesta para integrar la tecnología CODI en la aplicación móvil de Telmex como sistema de pago seguro y rápido.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item current">
+              <div class="timeline-icon"><i class="bi bi-laptop"></i></div>
+              <div class="timeline-body">
+                <h4>Proyecto: BioPlant <span class="badge-active">En curso</span></h4>
+                <p class="timeline-source"><i class="bi bi-people"></i> Desarrollo Web Colaborativo</p>
+                <p>Diseño y desarrollo de una página web para el vivero "BioPlant" junto con un equipo de colegas.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Intereses -->
+        <div id="intereses" class="tab-panel">
+          <h2 class="section-title">Intereses</h2>
+          <p class="interests-intro">Intereses profesionales ordenados de mayor a menor importancia:</p>
+          <div class="interest-cards">
+
+            <div class="interest-card">
+              <div class="interest-rank">01</div>
+              <i class="bi bi-diagram-3 interest-icon"></i>
+              <h4>Redes</h4>
+              <p>Infraestructura y comunicación entre sistemas</p>
+            </div>
+
+            <div class="interest-card">
+              <div class="interest-rank">02</div>
+              <i class="bi bi-controller interest-icon"></i>
+              <h4>Videojuegos</h4>
+              <p>Desarrollo y diseño de experiencias interactivas</p>
+            </div>
+
+            <div class="interest-card">
+              <div class="interest-rank">03</div>
+              <i class="bi bi-database interest-icon"></i>
+              <h4>Bases de Datos</h4>
+              <p>Modelado, consultas y gestión de datos</p>
+            </div>
+
+            <div class="interest-card">
+              <div class="interest-rank">04</div>
+              <i class="bi bi-terminal interest-icon"></i>
+              <h4>Programación</h4>
+              <p>Desarrollo de software y soluciones de código</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div><!-- /tab-panels -->
+
+      <footer class="main-footer">
+        <p>Todos los derechos reservados &copy; 2024 — Daniel Tehuacatl</p>
+      </footer>
+
+    </main>
+  </div><!-- /cv-wrapper -->
+
+  <script>
+    const btns = document.querySelectorAll('.tab-btn');
+    const panels = document.querySelectorAll('.tab-panel');
+
+    btns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        btns.forEach(b => b.classList.remove('active'));
+        panels.forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById(btn.dataset.tab).classList.add('active');
+      });
+    });
+  </script>
 
 </body>
 </html>
